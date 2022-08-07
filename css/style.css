@@ -1,0 +1,55 @@
+/* bottom(abaixo) top(topo) right(direita) left(esquerda) */
+
+/* possível associar diversas fontes ao atributo font-family, simplesmente separando o nome de 
+cada uma delas por uma vírgula. o navegador irá associar conforme seu suporte    */
+
+body {
+    background:rgba(27, 181, 232, 0);
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+header{
+    margin-top: 70px; /* margem acima do elemento */
+    
+}
+
+h1 {
+    color:rgb(171, 53, 14);
+    font-family:fantasy;
+    text-align: center;
+}
+
+h2 {
+    color:rgb(31, 151, 111);
+    font-family:fantasy; /* fonte da letra */
+    text-align: center;
+}
+
+h3 {
+    font-family:'Times New Roman', Times, serif;
+}
+nav {
+    text-align: center;
+}
+
+p {
+    font-size:18px; /*tamanho da letra dos parágrafos*/
+}
+
+footer {
+    margin: 40;
+    text-align: center;
+}
+
+.img_padrao { 
+     margin-bottom: 20px; /*classe "img_padrao" */
+     width: 500px;
+     height:300px;
+}
+
+.logo_padrao {
+    width:30px;
+    height:30px;
+}
+
