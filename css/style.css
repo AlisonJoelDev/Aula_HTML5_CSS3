@@ -1,7 +1,11 @@
-/* bottom(abaixo) top(topo) right(direita) left(esquerda) */
 
-/* possível associar diversas fontes ao atributo font-family, simplesmente separando o nome de 
-cada uma delas por uma vírgula. o navegador irá associar conforme seu suporte    */
+/* 
+Bottom(abaixo) top(topo) right(direita) left(esquerda)
+
+Possível associar diversas fontes ao atributo font-family, 
+simplesmente separando o nome de cada uma delas por uma vírgula. 
+o navegador irá associar conforme seu suporte
+*/
 
 body {
     background:rgba(27, 181, 232, 0);
@@ -11,7 +15,6 @@ body {
 
 header{
     margin-top: 70px; /* margem acima do elemento */
-    
 }
 
 h1 {
@@ -19,7 +22,6 @@ h1 {
     font-family:fantasy;
     text-align: center;
 }
-
 h2 {
     color:rgb(31, 151, 111);
     font-family:fantasy; /* fonte da letra */
@@ -51,5 +53,10 @@ footer {
 .logo_padrao {
     width:30px;
     height:30px;
+}
+
+fieldset {
+    /* margin-top: 20px; */
+    margin-bottom: 20px;
 }
 
